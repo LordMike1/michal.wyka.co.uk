@@ -1,0 +1,136 @@
+/* GRADIENT
+background: #0f0c29;
+background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 100%;
+    height: 100%;
+    background: #0f0c29 no-repeat fixed;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e) no-repeat fixed;
+    font-size: 2vh;
+    color: rgb(241, 246, 255);
+}
+
+h5 {
+    font-weight: normal;
+}
+
+.spacer {
+    height: 2.5vw;
+}
+
+.spacer2 {
+    height: 5vw;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: max(2vw, 20px);
+}
+
+.titlesubtitle {
+    font-weight: lighter;
+    font-size: max(2vw, 20px);
+}
+
+.small-txt {
+    font-size: max(1vw, 10px);
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.header-top {
+    white-space: nowrap;
+    padding-top: 5vw;
+}
+
+.title-right-space {
+    padding-left: 5vw;
+}
+
+.header-top-smaller {
+    white-space: nowrap;
+    padding: 2.5vw;
+}
+
+.card {
+    background-color: rgba(240, 223, 223, 0.068);
+    /* border: white solid ; */
+    border-radius: 1vw;
+    padding: 1vw 0.3vw;
+    margin: 2vw 2.5vw;
+}
+
+.server-img {
+    max-width: min(500px, 100%);
+}
+
+i {
+    font-size: 4vw;
+    padding-bottom: 1vw;
+}
+
+.small i {
+    font-size: 3vh;
+    padding-bottom: 1vw;
+}
+
+a {
+    /* text-decoration: underline inherit; */
+    /* text-underline-offset: 0.05em; */
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    /* text-decoration: none; */
+    opacity: 0.6;
+    transition: 0.25s;
+    color: rgba(241, 246, 255, 0.75);
+}
+
+.paragraph {
+    font-size: max(1.25vw, 15px);
+    padding-left: 3vw;
+}
+
+.small-icon {
+    font-size: 0.75vw;
+}
+
+.logo-scaling {
+    height: 20vh;
+}
+
+.circle-img {
+    width: 20vh;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.div-only-mobile {
+    /* width: 400px; */
+    /* height: 200px; */
+    background: orange;
+}
+
+@media screen and (max-width: 1920px) {
+    .div-only-mobile {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 906px) {
+    .div-only-mobile {
+        visibility: visible;
+    }
+}
