@@ -10,25 +10,36 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="shortcut icon" href="https://f003.backblazeb2.com/file/mwykaresources/logo_circle_dark_bkg_KdU_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container mt-24">
         <div class="row justify-content-center">
-            <div class="col text-start small" style="padding: 50px 0 0 50px;">
-                <a href="https://michal.wyka.co.uk" style="background-color: inherit; border: none; font-weight: lighter;"><i class="fas fa-arrow-left" style="padding: 0;"></i></a>
+            <div class="col text-center">
+                <i class="fas fa-images text-8xl mb-2"></i>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center" style="margin: 10% 0 0 0;">
-            <div class="col text-center title">
-                <i class="fas fa-hard-hat"></i>
-                <br> This bit is still under construction.
-                <br>
-                <br> But, I post all of my photography-related work on my instagram... to which you will be redirected in <span id="seconds"></span> seconds.
-                <br>
-                <br> Or click <a href="https://www.instagram.com/m_w.media/">here.</a>
+        <div class="row justify-center">
+            <div class="col text-center text-4xl mb-2">
+                The easiest way to see my photos is on my instagram.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-2xl mb-2">
+                You'll be taken there in <span id="seconds"></span> seconds.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center text-2xl mb-2">
+                Or click <a class="underline decoration-from-font underline-offset-2 decoration-slate-600" href="https://www.instagram.com/m_w.media/">here.</a>
+            </div>
+        </div>
+        <div class="row align-content-center">
+            <div class="col-6 text-center mx-auto my-5">
+                <a href="/">
+                    <button class="rounded font-semibold text-lg p-2 bg-slate-300 text-neutral-700">Go Back</button>
+                </a>
             </div>
         </div>
     </div>
@@ -36,7 +47,7 @@
     <script>
         // Countdown timer for redirecting to another URL after several seconds
 
-        var seconds = 15; // seconds for HTML
+        var seconds = 10; // seconds for HTML
         var foo; // variable for clearInterval() function
 
         function redirect() {
