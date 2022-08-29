@@ -1,0 +1,83 @@
+<script>
+    var nav = document.getElementById('site-menu');
+    var header = document.getElementById('top');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY >= 400) { // adjust this value based on site structure and header image height
+            nav.classList.add('nav-sticky');
+            header.classList.add('pt-scroll');
+        } else {
+            nav.classList.remove('nav-sticky');
+            header.classList.remove('pt-scroll');
+        }
+    });
+
+    function navToggle() {
+        var btn = document.getElementById('menuBtn');
+        var nav = document.getElementById('menu');
+
+        btn.classList.toggle('open');
+        nav.classList.toggle('flex');
+        nav.classList.toggle('hidden');
+    }
+</script>
+
+
+<!-- HAMBURGER HEADER MENU -->
+<div id="navBar"></div>
+<header id="top" class="w-full flex flex-col fixed md:relative pin-t pin-r pin-l md:hidden">
+    <nav id="site-menu"
+        class="flex flex-col md:flex-row w-full justify-between items-center px-4 md:px-6 bg-zinc-50 shadow md:shadow-none">
+        <div
+            class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center">
+            <button id="menuBtn" class="hamburger block md:hidden focus:outline-none" type="button"
+                onclick="navToggle();">
+                <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
+            </button>
+        </div>
+        <div id="menu"
+            class="w-full md:w-auto self-end md:self-center md:flex flex-col md:flex-row items-center h-full py-1 pb-4 md:py-0 md:pb-0 hidden">
+            <a class="text-dark font-normal hover:text-sky-800 text-lg w-full no-underline md:w-auto md:pr-4 py-2 md:py-1 md:pt-2"
+                href="https://ttntm.me/blog/tailwind-responsive-menu/" target="_blank">What I do</a>
+            <a class="text-dark font-normal hover:text-sky-800 text-lg w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+                href="it-projects#current-projects">Current Projects</a>
+            <a class="text-dark font-normal hover:text-sky-800 text-lg w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2"
+                href="it-projects#past-projects">Past Projects</a>
+            <a href="contact-me">
+                <button
+                    class="inline-flex items-center transition-all text-slate-50 bg-sky-800 hover:text-sky-800 border-0 py-1 px-3 focus:outline-none hover:bg-zinc-50 rounded text-base mt-4 md:mt-0">Contact
+                    Me
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+    </nav>
+</header>
+
+<!-- HEADER MENU -->
+
+<header class="text-gray-600 hidden md:block">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <!-- LOGO/NAME MENU ITEM -->
+        <a class="flex title-font items-center text-gray-900 mb-4 md:mb-0 ml-3 text-xl" href="./">Michal Wyka
+        </a>
+        <!-- NAV ITEMS -->
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="./">What I do</a>
+            <!-- <a class="mr-5 hover:text-gray-900" href="it-projects#current-projects">Current Projects</a> -->
+            <a class="mr-5 hover:text-gray-900" href="it-projects#past-projects">Past Projects</a>
+        </nav>
+
+        <!-- CONTACT ME BUTTON -->
+        <a href="contact-me">
+            <button
+                class="inline-flex items-center transition-all text-slate-50 bg-sky-800 hover:text-sky-800 border-0 py-1 px-3 focus:outline-none hover:bg-zinc-50 rounded text-base mt-4 md:mt-0">Contact
+                Me
+                <i class="fa-solid fa-arrow-right pl-2"></i>
+            </button>
+        </a>
+    </div>
+</header>
