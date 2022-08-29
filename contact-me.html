@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/90ecf0149d.js" crossorigin="anonymous"></script>
+  <title>Michal Wyka</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(function () {
+      $("#navBar").load("navBar.html");
+      $("#footer").load("footer.html");
+      $("#includedContent").load("b.html");
+    });
+  </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    } 
+  </script>
+</head>
+
+<body class="bg-zinc-50 font-raleway text-gray-900 min-h-screen">
+  <div id="navBar"></div>
+
+  <!-- HERO -->
+  <div class="grid">
+    <div class="justify-items-center text-center mx-auto max-w-4xl pb-20">
+      <div class="title sm:pb-2">
+        <h1 class="text-5xl mt-20 font-raleway font-semibold">
+          Contact Me
+        </h1>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="flex columns-md justify-center">
+    <ul>
+      <li class="pb-8 text-center">
+        <a class="text-slate-50 bg-sky-800 hover:text-sky-800 hover:bg-zinc-50 rounded p-4 min-w-full transition-all" href="mailto:michal@wyka.co.uk">
+          <span class="title-font font-medium">Email</span>
+          <i class="fa-solid fa-arrow-up-right-from-square pl-2"></i>
+        </a>
+      </li>
+      <li class="py-8 text-center">
+        <a class="text-slate-50 bg-sky-800 hover:text-sky-800 hover:bg-zinc-50 rounded p-4 min-w-full" href="https://twitter.com/michal_wyka">
+          <span class="title-font font-medium">Twitter</span>
+          <i class="fa-solid fa-arrow-up-right-from-square pl-2"></i>
+        </a>
+      </li>
+      <li class="py-8 text-center">
+        <a class="text-slate-50 bg-sky-800 hover:text-sky-800 hover:bg-zinc-50 rounded p-4 min-w-full" href="https://www.linkedin.com/in/michal-wyka/">
+          <span class="title-font font-medium">Linkedin</span>
+          <i class="fa-solid fa-arrow-up-right-from-square pl-2"></i>
+        </a>
+      </li>
+      <li class="py-8 text-center">
+        <a class="text-slate-50 bg-sky-800 hover:text-sky-800 hover:bg-zinc-50 rounded p-4 min-w-full" href="https://discordapp.com/users/201261631957630976" target="_blank">
+          <span class="title-font font-medium">Discord</span>
+          <i class="fa-solid fa-arrow-up-right-from-square pl-2"></i>
+        </a>
+      </li>
+      <li class="py-8 text-center">
+        <a class="text-slate-50 bg-sky-800 hover:text-sky-800 hover:bg-zinc-50 rounded p-4 min-w-full" href="https://www.instagram.com/m_w.media/">
+          <span class="title-font font-medium">Instagram</span>
+          <i class="fa-solid fa-arrow-up-right-from-square pl-2"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
+
+  <div class="sm:fixed sm:bottom-0 sm:left-0 sm:right-0" id="footer"></div>
+
+</body>
+
+</html>
