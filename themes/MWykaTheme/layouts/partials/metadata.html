@@ -1,0 +1,12 @@
+<div class="date pb-4 italic">
+    -{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "2 January, 2006" }}
+    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> -
+</div>
+{{ with .Params.tags }}
+<i data-feather="tag"></i>
+{{ range . }}
+{{ $href := print (absURL "tags/") (urlize .) }}
+<a class="bg-sky-800 text-white py-1 px-2 rounded-sm" href="{{ $href }}">{{ . }}</a>
+{{ end }}
+{{ end }}
