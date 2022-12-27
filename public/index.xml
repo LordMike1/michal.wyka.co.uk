@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michal Wyka</title>
-    <link>http://example.org/</link>
+    <link>http://michal.wyka.co.uk/</link>
     <description>Recent content on Michal Wyka</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 23 Dec 2022 23:55:47 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://michal.wyka.co.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <title>Contact Me</title>
+      <link>http://michal.wyka.co.uk/contact-me/</link>
       <pubDate>Fri, 23 Dec 2022 23:55:47 +0000</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>Test</description>
+      <guid>http://michal.wyka.co.uk/contact-me/</guid>
+      <description>My LinkedIn Profile
+My Email
+My Twitter Profile</description>
     </item>
     
   </channel>

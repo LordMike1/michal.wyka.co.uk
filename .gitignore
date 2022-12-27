@@ -2029,3 +2029,9 @@ node_modules/yaml/types/omap.js
 node_modules/yaml/types/pairs.js
 node_modules/yaml/types/set.js
 node_modules/yaml/types/timestamp.js
+themes/MWykaTheme/layouts/_default/baseof.html
+themes/MWykaTheme/layouts/_default/list.html
+themes/MWykaTheme/layouts/_default/single.html
+themes/MWykaTheme/layouts/partials/footer.html
+themes/MWykaTheme/static/css/input.css
+themes/MWykaTheme/static/css/style.css

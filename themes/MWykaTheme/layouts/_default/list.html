@@ -1,18 +1,18 @@
 {{ define "main" }}
-<div id="body" class="bg-zinc-50 font-raleway text-gray-900">
-    <h1 class="text-5xl text-center mt-20 font-raleway font-semibold">My Writing</h1>
-    <h2 class="text-2xl text-center mt-5 font-raleway font-light px-64">I mainly write about current affairs, but I've also included a few academic pieces.</h2>
-    <div class="flex px-40 mt-20 mx-12">
+<div id="body" class="bg-zinc-50 font-raleway text-gray-900 grid">
+    <h1 class="text-3xl sm:text-5xl text-center mt-20 font-raleway font-semibold">My Writing</h1>
+    <h2 class="text-xl sm:text-2xl text-center mt-5 font-raleway font-light px-8 lg:px-64">I mainly write about current affairs, but I've also included a few academic pieces.</h2>
+    <div class="flex px-8 lg:px-64 mt-20">
         <div class="row">
             <div class="p-12">
                 {{ range .Pages.ByPublishDate.Reverse }}
-                <div class="py-8 mx-8">
+                <div class="py-8">
                     <a class="" href="{{ .RelPermalink }}">
                         <p class="bg-slate-500">
-                            <h3 class="text-start text-2xl pb-3 underline">
+                            <h3 class="text-start text-xl sm:text-2xl pb-3 underline">
                                 {{ .Title }}
                             </h3>
-                            <div class="pb-4 text-start italic">
+                            <div class="pb-4 text-start italic text-sm sm:text-base">
                                 -{{ $dateTime := .PublishDate.Format "2006-01-02" }}
                                 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
                                 <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> -
@@ -27,7 +27,7 @@
                                 {{ end }}
                             </div>
                             <!-- <img src="https://picsum.photos/id/684/600/400" alt=""> -->
-                            <p>
+                            <p class="text-sm sm:text-base">
                                 {{ .Summary }}
                             </p>
 
