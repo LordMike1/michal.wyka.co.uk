@@ -1,9 +1,9 @@
-name: github pages
+name: hugo github pages
 
 on:
   push:
     branches:
-      - main  # Set a branch that will trigger a deployment
+      - production  # Set a branch that will trigger a deployment
   pull_request:
 
 jobs:
