@@ -2,16 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://michal.wyka.co.uk/</loc>
-    <lastmod>2022-12-27T15:30:43+00:00</lastmod>
-  </url><url>
-    <loc>http://michal.wyka.co.uk/posts/plato-philosopher-rulers/</loc>
-    <lastmod>2022-12-27T15:30:43+00:00</lastmod>
-  </url><url>
-    <loc>http://michal.wyka.co.uk/posts/</loc>
-    <lastmod>2022-12-27T15:30:43+00:00</lastmod>
+    <loc>http://michal.wyka.co.uk/contact-me/</loc>
+    <lastmod>2022-12-23T23:55:47+00:00</lastmod>
   </url><url>
     <loc>http://michal.wyka.co.uk/categories/</loc>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/</loc>
   </url><url>
     <loc>http://michal.wyka.co.uk/tags/</loc>
   </url>
