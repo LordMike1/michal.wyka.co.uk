@@ -4,7 +4,7 @@ subtitle: "You can reach me by messaging any of the following profiles"
 date: 2022-12-23T23:55:47Z
 draft: false
 type: "page"
-layout: "single"
+layout: "contact"
 ---
 
 [*My LinkedIn Profile*](https://www.linkedin.com/in/michal-wyka/)
