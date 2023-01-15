@@ -2916,11 +2916,6 @@ html {
   padding-right: 0.5rem;
 }
 
-.px-72 {
-  padding-left: 18rem;
-  padding-right: 18rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -3230,11 +3225,6 @@ html {
   .sm\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
-
-  .sm\:px-72 {
-    padding-left: 18rem;
-    padding-right: 18rem;
   }
 
   .sm\:pb-2 {
