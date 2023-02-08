@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://michal.wyka.co.uk/tags/journalism/</loc>
+    <lastmod>2023-01-25T14:01:59+00:00</lastmod>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/tags/local-news/</loc>
+    <lastmod>2023-01-25T14:01:59+00:00</lastmod>
+  </url><url>
     <loc>http://michal.wyka.co.uk/</loc>
-    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-25T14:01:59+00:00</lastmod>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/posts/new-multi-faith-centre/</loc>
+    <lastmod>2023-01-25T14:01:59+00:00</lastmod>
   </url><url>
     <loc>http://michal.wyka.co.uk/posts/</loc>
+    <lastmod>2023-01-25T14:01:59+00:00</lastmod>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/tags/</loc>
+    <lastmod>2023-01-25T14:01:59+00:00</lastmod>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/tags/national-news/</loc>
+    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/tags/policy-blog/</loc>
+    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://michal.wyka.co.uk/tags/sustainability/</loc>
     <lastmod>2023-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://michal.wyka.co.uk/posts/utilizing-brexit-for-rewilding/</loc>
@@ -15,7 +36,5 @@
     <lastmod>2022-12-23T23:55:47+00:00</lastmod>
   </url><url>
     <loc>http://michal.wyka.co.uk/categories/</loc>
-  </url><url>
-    <loc>http://michal.wyka.co.uk/tags/</loc>
   </url>
 </urlset>
