@@ -11,7 +11,6 @@ layout: "contact"
 
 &nbsp;
 
-
 [*My Email*](mailto:michal@wyka.co.uk)
 
 &nbsp;
