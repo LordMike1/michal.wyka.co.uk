@@ -30,6 +30,11 @@ html {
     height: 100vh;
 }
 
+a {
+    color: rgb(7 89 133);
+    text-decoration: underline;
+}
+
 /* HAMBURGER MENU */
 
 .hamburger {
